@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    color: white;
+}
+
+textarea{
+    width: 500px;
+    height:100px;
+}
+.container{
+    margin-top: 150px;
+}
+
+input[type="submit"]
+{
+background-color: rgb(49, 49, 108);
+color: white;
+}
+
+.textbox{
+    width: 400px;
+    height: 480px;
+    border-radius: 20px;
+    background-color:rgb(49, 49, 108) ;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -320px;
+
+}
