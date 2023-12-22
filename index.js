@@ -1,11 +1,14 @@
-const messageinput = document.getElementById ("text");
+const messageinput = document.getElementById ("texto")
+const ul =document.querySelector ("ul")
+const li = document.createElement('li')
+console.log(ul)
+
 
 
 
 function createmessage(){
-    document.getElementsByClassName ("textbox.h1").innerHTML = messageinput.value;
-    console.log (messageinput);
-    messageinput.value = "";
-    
+    ul.appendChild(document.createElement("li"));
+    document.querySelector("li").innerText=(messageinput.value)
+   
 
 }
