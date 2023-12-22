@@ -11,16 +11,14 @@
     <h1>Write here your motivational quotes!</h1>
     <form>
 
-        <textarea class="comment" placeholder="Write here"></textarea>
+        <textarea id="text" placeholder="Write here"></textarea>
     </form>
     <div class="button">
-        <input id="submit" type="submit" value="create">
-        <button>Cancel</button>
+        <button onclick="createmessage()">Submit</button>
+        <button onclick="deletemessage()">Cancel</button>
     </div>
     <div class="textbox">
-        <h1>comments</h1>
-        <div class="list">
-            
+       <h1></h1>
         </div>
     </div>
 
